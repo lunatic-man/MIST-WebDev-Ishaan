@@ -1,0 +1,119 @@
+#heading{
+    color: rgb(255, 230, 1);
+    background-color: green;
+    width: auto;
+    height: auto;
+    text-align: center;
+    border-color: blue;
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px;
+}
+
+body{
+    background-color: #180f01; 
+    color: #0de720;
+    font-family: Georgia, serif;
+}
+
+.tableContent{
+    color: rgb(2, 211, 248);
+
+}
+
+#para{
+    color: #0de720;
+    max-width: fit-content;
+}
+
+#table-header{
+    color: rgb(2, 211, 248);
+}
+
+.image{
+    border-style: dashed;
+    border-color: antiquewhite;
+    border-radius: 2px;
+    border-width: 1px;
+    margin: 10px;
+}
+
+#image2{
+    float:calc(); 
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
+#image3{
+    float: right;
+    margin-top: 75px;
+}
+
+#historyImg1{
+    margin: 10px;
+}
+
+#historyImg2{
+    margin-top: 45px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: right;
+}
+
+#aristotleImg1{
+    margin: 10px;
+}
+
+#aristotleImg2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: right;
+}
+
+#ancientIndiaImg1{
+    margin: 10px;
+}
+
+#ancientIndiaImg2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    float: right;
+}
+
+#linnaeusImg1{
+    margin: 10px;
+}
+
+#linnaeusImg2{
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#LDImg1{
+    margin: 10px;
+}
+
+#LDImg2{
+    float: right;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.histEvo{
+    text-align: center;
+}
+
+.curSys{
+    text-align: center;
+}
