@@ -9,11 +9,31 @@ const facts = [
   "Carl Linnaeus was nicknamed the 'Father of Modern Taxonomy'."
 ];
 
-// Pick and show a random fact when the page loads
 window.addEventListener('load', () => {
   const randomFact = facts[Math.floor(Math.random() * facts.length)];
-  alert("🧠 Did you know?\n" + randomFact);
+  const factBox = document.getElementById('fact-box');
+  
+  factBox.textContent = "🧠 Did you know? " + randomFact;
+  factBox.classList.remove('hidden');
+  
+  // Fade in
+  setTimeout(() => {
+    factBox.classList.add('opacity-100');
+    factBox.classList.remove('opacity-0');
+  }, 100);
+  
+  // Fade out after 6 seconds
+  setTimeout(() => {
+    factBox.classList.add('opacity-0');
+    factBox.classList.remove('opacity-100');
+  }, 6000);
+  
+  // Hide completely after fade
+  setTimeout(() => {
+    factBox.classList.add('hidden');
+  }, 7000);
 });
+
 
 
 // Wait for the page to fully load
